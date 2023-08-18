@@ -1,0 +1,169 @@
+body {
+    background-color: aquamarine;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.Main {
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    padding: 0vw 10vw 0vw 10vw;
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Ankit {
+    cursor: pointer;
+}
+
+.buttons {
+    padding: 8px 0;
+}
+
+.buttons a {
+    text-decoration: none;
+}
+
+.btn {
+    padding: 12px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.container3 .btn:hover {
+    background-color: blue;
+}
+
+.converter {
+    width: 8%;
+}
+
+.aboutme {
+    background-color: rgb(24, 86, 94);
+    padding: 8px 15px 8px 15px;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    width: fit-content;
+    text-transform: uppercase;
+    list-style: none;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.aboutme:hover {
+    background-color: rgb(66, 55, 55);
+}
+
+#convert {
+    margin-top: 10px;
+    background-color: rgb(142, 0, 113);
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+    box-sizing: border-box;
+    display: inline-block;
+    font-size: 20px;
+    position: relative;
+    text-align: center;
+    padding: 10px 10px;
+    width: 30vw;
+    text-decoration: none;
+}
+
+#convert:hover {
+    background-color: rgb(53, 110, 167);
+}
+
+#clear {
+    margin-top: 10px;
+    background-color: rgb(1, 170, 68);
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+    box-sizing: border-box;
+    display: inline-block;
+    font-size: 20px;
+    position: relative;
+    text-align: center;
+    padding: 10px 10px;
+    width: 20vw;
+    text-decoration: none;
+}
+
+#clear:hover {
+    background-color: rgb(53, 110, 167);
+}
+
+h1 {
+    color: #250101;
+    margin-top: 5%;
+    font-size: 40px;
+    margin-bottom: -15px;
+}
+
+input {
+    padding: 20px;
+    margin: 35px;
+    margin-top: 32px;
+    font-size: 1.5em;
+    width: 45vw;
+    display: flex;
+    color: black;
+    border-radius: 15px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: auto;
+    max-width: 300px;
+}
+
+.about-section {
+    padding: 2px;
+    text-align: center;
+    background-color: #2d3543;
+    color: white;
+}
+
+
+.title {
+    color: rgb(2, 14, 150);
+    font-size: 25px;
+}
+
+button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: rgb(78, 5, 205);
+    background-color: #d063e1;
+    text-align: center;
+    cursor: pointer;
+    width: 30%;
+}
+
+button:hover {
+    background-color: #000000;
+}
+
+.nav-link {
+    font-size: 25px;
+}
